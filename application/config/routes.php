@@ -97,6 +97,9 @@ $route['default_controller'] = 'Welcome';
 $route['admin/login'] = 'admin/Admin_Authentication/log_in';
 $route['admin/do_login'] = 'admin/Admin_Authentication/do_log_in';
 $route['admin/register'] = 'admin/Admin_Authentication/register';
+$route['admin/reset_password'] = 'admin/Admin_Authentication/reset_password';
+$route['admin/do_reset_password'] = 'admin/Admin_Authentication/do_reset_password';
+
 // $route['admin/generate_admin'] = 'admin/Admin_Authentication/generate_admin';
 $route['admin/profile'] = 'admin/Admin_Authentication/view_my_profile';
 $route['admin/do_logout'] = 'admin/Admin_Authentication/do_logout';

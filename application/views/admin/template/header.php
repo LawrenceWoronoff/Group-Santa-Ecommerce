@@ -28,9 +28,9 @@
                                 <span class="f-12">Administrator</span>
                             </span>
                         </div>
-                        <!-- <a class="dropdown-item" href="javascript:void(0)"> 
-                            <i class="icon icon-user-o icon-fw mr-2 mr-sm-1"></i>Password Change
-                        </a>  -->
+                        <a class="dropdown-item" href="<?php echo base_url('admin/reset_password');?>"> 
+                            <i class="icon icon-user-o icon-fw mr-2 mr-sm-1"></i>Reset Password
+                        </a> 
                         
                         <a class="dropdown-item" href="<?php echo base_url('admin/do_logout');?>"> 
                             <i class="icon icon-edit icon-fw mr-2 mr-sm-1"></i>Logout
