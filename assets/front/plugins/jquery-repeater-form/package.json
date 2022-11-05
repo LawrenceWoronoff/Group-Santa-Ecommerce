@@ -1,0 +1,61 @@
+{
+  "_from": "jquery-repeater-form",
+  "_id": "jquery-repeater-form@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-hEf/N9sGte+OA4/ZWSd8mPbV9sII4BHUBRs5USgS0JMKNsdvtu+2LBu3b0lx6tx83gO1aicffRkpWwpIK4YK8w==",
+  "_location": "/jquery-repeater-form",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery-repeater-form",
+    "name": "jquery-repeater-form",
+    "escapedName": "jquery-repeater-form",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-repeater-form/-/jquery-repeater-form-1.0.2.tgz",
+  "_shasum": "ac5b296a6e42d4debd8ccc92e2610c312d9b3020",
+  "_spec": "jquery-repeater-form",
+  "_where": "D:\\project-maybe\\temp_npm_install_for_tcn",
+  "author": {
+    "name": "B L Praveen"
+  },
+  "bugs": {
+    "url": "https://github.com/blpraveen/jquery.repeater/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "uglify-js": "^3.13.10"
+  },
+  "deprecated": false,
+  "description": "Jquery Form Repeater",
+  "devDependencies": {},
+  "homepage": "https://github.com/blpraveen/jquery.repeater#readme",
+  "keywords": [
+    "npm",
+    "jquery-plugin",
+    "jquery",
+    "repeater"
+  ],
+  "license": "ISC",
+  "main": "jquery.repeater.js",
+  "name": "jquery-repeater-form",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blpraveen/jquery.repeater.git"
+  },
+  "scripts": {
+    "minifyJS": "uglifyjs jquery.repeater.js --compress --mangle --warn --output jquery.repeater.min.js",
+    "production": "npm run version:bump --silent && rm -f jquery.repeater.min.js && npm run minifyJS --silent && npm run version:add --silent",
+    "version:add": "echo \"/*! Jquery Repeater!!!!1!11! v - $(npm run version:extract --silent)n * © Someone probably n * Build time: $(date '+%m-%d-%Y %H:%M:%S')n */n$(cat jquery.repeater.min.js)\" > jquery.repeater.min.js",
+    "version:bump": "npm version patch --no-git-tag-version --silent",
+    "version:extract": "cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]'"
+  },
+  "version": "1.0.2"
+}
