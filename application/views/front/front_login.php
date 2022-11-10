@@ -29,7 +29,7 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <div class="block text-center">
-              <a class="logo" href="index.html">
+              <a class="logo" href="<?php echo base_url();?>">
                 <img src="<?php echo base_url('assets/front/images/logoimg.png');?>" alt="logo">
               </a>
               <h2 class="text-center">Login</h2>
