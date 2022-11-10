@@ -45,23 +45,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<td><?php echo $group_info['budget'];?> GBP</td>
 								</tr>
 								<tr>
-									<td>Bill Address</td>
+									<td>Group Address</td>
 									<td><?php echo $group_info['bill_addr'];?></td>
 								</tr>
 								<tr>
-									<td>Bill Zip</td>
+									<td>Group Postcode</td>
 									<td><?php echo $group_info['bill_zip'];?></td>
 								</tr>
 								<tr>
-									<td>Bill City</td>
+									<td>Group City</td>
 									<td><?php echo $group_info['bill_city'];?></td>
 								</tr>
 								<tr>
-									<td>Bill Country</td>
+									<td>Group Country</td>
 									<td><?php echo $group_info['bill_country'];?></td>
 								</tr>
 								<tr>
-									<td>Coupon</td>
+									<td>Group Code</td>
 									<td><?php echo $group_info['group_code'];?></td>
 								</tr>
 							</tbody>
@@ -117,7 +117,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<?php if($group_member_info[$i]['order_status'] == '1'):?>
 										<td><span class="label label-primary">Ordered</span></td>
 									<?php else:?>
-										<td><span class="label label-danger">In order yet</span></td>
+										<td><span class="label label-danger">Not ordered yet</span></td>
 									<?php endif;?>
 								</tr>
 								<?php } ?>

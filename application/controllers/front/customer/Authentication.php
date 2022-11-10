@@ -115,7 +115,6 @@ class Authentication extends CI_Controller {
 		$front_store_top_menu = $this->load->view('front/template/front_store_top_menu', null, TRUE);
 		$front_store_footer = $this->load->view('front/template/front_store_footer', null, TRUE);
 		$user_data = $this->session->userdata(USER_INFO);
-		var_dump($user_data);
 		$this->load->view('front/my_profile/front_profile', array('view_header' => $front_store_header, 
 																	'top_header' => $front_store_top_header, 
 																	'top_menu' => $front_store_top_menu, 
