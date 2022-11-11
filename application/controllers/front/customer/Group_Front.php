@@ -207,10 +207,12 @@ class Group_Front extends CI_Controller {
 
 	public function do_accept_by_mail($group_id, $user_id)
 	{
+		// redirect('user/login');
 		$user_info = $this->Users->get(array('id' => $user_id));
 		if(count($user_info) > 0) {
 			$this->Group_members->accept($group_id, $user_id);
-			redirect('user/group/view_my_group');
+			// redirect('user/group/view_my_group');
+			redirect('user/login');
 		}
 		else {
 			redirect('user/login');

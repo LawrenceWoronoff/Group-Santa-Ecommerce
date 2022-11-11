@@ -232,7 +232,7 @@
 <tr>
 <td class="pad" style="padding-left:20px;padding-right:20px;padding-top:30px;">
 <div style="font-family: sans-serif">
-<div class="" style="font-size: 14px; mso-line-height-alt: 21px; color: #dfd1be; line-height: 1.5; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
+<div class="" style="font-size: 14px; mso-line-height-alt: 21px; color: #303030; line-height: 1.5; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
 <p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 21px;">Dear <?php echo $user_name;?>! You are invited to the party. Reply to the invitation, please. Your default password is 123456789 if you are not registered to the partyplans.shop</p>
 </div>
 </div>
@@ -243,7 +243,8 @@
 <tr>
 <td class="pad" style="padding-bottom:35px;padding-left:10px;padding-right:10px;padding-top:30px;text-align:center;">
 <div align="center" class="alignment">
-<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="www.example.com" style="height:46px;width:104px;v-text-anchor:middle;" arcsize="0%" strokeweight="1.5pt" strokecolor="#DFD1BE" fillcolor="#303030"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#dfd1be; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="<?php echo base_url('user/group/do_accept_by_mail/').$group_id.'/'.$user_id;?>" style="text-decoration:none;display:inline-block;color:#dfd1be;background-color:#303030;border-radius:0px;width:auto;border-top:2px solid #DFD1BE;font-weight:400;border-right:2px solid #DFD1BE;border-bottom:2px solid #DFD1BE;border-left:2px solid #DFD1BE;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 32px;">Accept</span></span></a>
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="www.example.com" style="height:46px;width:104px;v-text-anchor:middle;" arcsize="0%" strokeweight="1.5pt" strokecolor="#DFD1BE" fillcolor="#303030"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#dfd1be; font-family:Tahoma, sans-serif; font-size:16px"><![endif]-->
+<a href="<?php echo base_url('user/group/do_accept_by_mail/').$group_id.'/'.$user_id;?>" style="text-decoration:none;display:inline-block;color:#dfd1be;background-color:#303030;border-radius:0px;width:auto;border-top:2px solid #DFD1BE;font-weight:400;border-right:2px solid #DFD1BE;border-bottom:2px solid #DFD1BE;border-left:2px solid #DFD1BE;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 32px;">Accept</span></span></a>
 <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
 </div>
 </td>
